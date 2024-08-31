@@ -1,0 +1,9 @@
+body {
+    height: 10000px;
+}
+.carousel-item {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 100%;
+}
