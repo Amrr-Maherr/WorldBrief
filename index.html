@@ -74,6 +74,15 @@
                             <li><a class="dropdown-item" href="#">Opinion</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <!-- Button to trigger the off-canvas menu -->
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                                aria-controls="offcanvasScrolling">
+                                News Highlights
+                            </button>
+                        </a>
+                    </li>
                 </ul>
                 <!-- Search form -->
                 <form class="d-flex" role="search">
@@ -129,8 +138,26 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
-
+<!-- Off-canvas menu for displaying news highlights -->
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+    id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">News Highlights</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Stay updated with the latest news and trending stories. Explore the following highlights:</p>
+        <ul>
+            <li><a href="https://www.example.com/latest-news" class="btn btn-link">Latest News</a></li>
+            <li><a href="https://www.example.com/world-news" class="btn btn-link">World News</a></li>
+            <li><a href="https://www.example.com/politics" class="btn btn-link">Politics</a></li>
+            <li><a href="https://www.example.com/business" class="btn btn-link">Business</a></li>
+            <li><a href="https://www.example.com/sports" class="btn btn-link">Sports</a></li>
+            <li><a href="https://www.example.com/entertainment" class="btn btn-link">Entertainment</a></li>
+        </ul>
+        <p>Use these links to navigate through the most important updates and stories across different categories.</p>
+    </div>
+</div>
     <!-- Custom JS for additional functionality -->
     <script src="js/main.js"></script>
 </body>
