@@ -26,22 +26,22 @@ To set up this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/amrr-maherr/WorldBrief.git
-📦 Usage
+## 📦 Usage
 Open index.html in your web browser.
 The application will automatically fetch and display the latest news articles from the news API.
 Articles are displayed in a grid format with details including an image, title, description, author, and publication date.
 AOS library adds animations as you scroll through the page, enhancing the visual experience.
 Click on the "Read Full Article" button to view the full article.
-🗂 Code Structure
+## 🗂 Code Structure
 index.html – The main HTML file for the application.
 style.css – Custom styles for the application (if applicable).
 script.js – JavaScript file for fetching and displaying news data.
-🔧 Technologies Used
+## 🔧 Technologies Used
 HTML
 CSS
 JavaScript
 Bootstrap (for responsive design)
 AOS (Animate On Scroll) library (for animations)
 News API
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! If you want to help improve this project, feel free to submit pull requests or open issues. Your input is highly valued!
