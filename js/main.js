@@ -15,9 +15,9 @@ function showData(articles) {
   let content = "";
   articles.forEach(function (article) {
     content += `
-            <div class='col-lg-3 col-md-4 col-12 my-4'>
-                <div data-aos="fade-up">
-                    <div class="card mx-auto" style="width: 18rem;">
+            <div class='col-lg-3 col-md-4 col-12 my-4 '>
+                <div data-aos="zoom-in">
+                    <div class="card mx-auto shadow-lg" style="width: 18rem;">
                         <img src="${article.urlToImage}" class="card-img-top" alt="Article image">
                         <div class="card-body">
                             <h5 class="card-title">${article.title}</h5>
@@ -33,9 +33,10 @@ function showData(articles) {
   });
   row.innerHTML = content;
 
-  AOS.init();
+  
 }
 
 window.onload = function () {
-  requestData();
+    requestData();
+    AOS.init();
 };
