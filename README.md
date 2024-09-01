@@ -26,8 +26,6 @@ To set up this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/amrr-maherr/WorldBrief.git
-Open index.html in your preferred web browser to view the application.
-
 📦 Usage
 Open index.html in your web browser.
 The application will automatically fetch and display the latest news articles from the news API.
@@ -46,5 +44,4 @@ Bootstrap (for responsive design)
 AOS (Animate On Scroll) library (for animations)
 News API
 🤝 Contributing
-Contributions are welcome! To contribute:
-
+We welcome contributions! If you want to help improve this project, feel free to submit pull requests or open issues. Your input is highly valued!
