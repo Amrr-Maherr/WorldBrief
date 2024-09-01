@@ -4,6 +4,8 @@
 
 WorldBrief is a web application that displays news articles fetched from a news API. This is the first project in the series that utilizes an API to fetch and display data. It uses HTML, CSS, and JavaScript to present news in a responsive and visually appealing layout with Bootstrap. Additionally, it incorporates the AOS (Animate On Scroll) library to add engaging scroll-based animations.
 
+![Project Screenshot](https://github.com/Amrr-Maherr/WorldBrief/blob/master/readme%20images/Screenshot_1-9-2024_34415_127.0.0.1.jpeg?raw=true)
+
 ## 🚀 Live Demo
 
 You can view the live demo of WorldBrief at [amrr-maherr.github.io/WorldBrief/](https://amrr-maherr.github.io/WorldBrief/).
@@ -24,10 +26,6 @@ To set up this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/amrr-maherr/WorldBrief.git
-cd WorldBrief
-
-Open the Project:
-
 Open index.html in your preferred web browser to view the application.
 
 📦 Usage
@@ -49,3 +47,4 @@ AOS (Animate On Scroll) library (for animations)
 News API
 🤝 Contributing
 Contributions are welcome! To contribute:
+
