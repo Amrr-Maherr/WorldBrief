@@ -1,14 +1,26 @@
+// Function to request data from the server
 function requestDataOne() {
+  // Create a new XMLHttpRequest object
   let xHttp = new XMLHttpRequest();
+  
+  // Define a function to handle changes in the request's state
   xHttp.onreadystatechange = function () {
+    // Check if the request is complete and successful
     if (this.readyState == 4 && this.status == 200) {
+      // Parse the JSON response from the server
       let articles = JSON.parse(this.responseText);
+      // Call the showData function with the articles data
       showData(articles.articles);
     }
   };
+  
+  // Initialize a GET request to the specified URL (synchronous request)
   xHttp.open("GET", "https://saurav.tech/NewsAPI/everything/cnn.json", false);
+  
+  // Send the request to the server
   xHttp.send();
 }
+
 
 function requestDataTwo() {
   let xHttp = new XMLHttpRequest();
