@@ -23,18 +23,29 @@ function requestDataOne() {
 
 
 function requestDataTwo() {
+  // Create a new XMLHttpRequest object to handle the request
   let xHttp = new XMLHttpRequest();
+  
+  // Define the function to be called whenever the state of the request changes
   xHttp.onreadystatechange = function () {
+    // Check if the request is complete and successful
     if (this.readyState == 4 && this.status == 200) {
+      // Parse the JSON response to a JavaScript object
       let articles = JSON.parse(this.responseText);
+      
+      // Call the data function and pass the articles array to it
       data(articles.articles);
     }
   };
+  
+  // Initialize the request with the GET method to retrieve data from the provided URL
   xHttp.open(
     "GET",
     "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json",
     false
   );
+  
+  // Send the request
   xHttp.send();
 }
 
